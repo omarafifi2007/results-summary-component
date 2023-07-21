@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Div1
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Div2
+{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.Div3
+{
+    width: 300px;
+    height: 450px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    background-color: hsl(252, 100%, 67%);
+}
+.Div3 h3
+{
+    padding-top: 30px;
+}
+.Div4
+{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin: 40px auto;
+    align-items: center;
+    border-radius: 90px;
+    justify-content: center;
+    background-color: hsla(256, 72%, 46%, 1);
+}
+.Div3 h3
+{
+    margin-bottom: 15px;
+}
+.Row
+{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+.Row h2
+{
+    margin-bottom: 100px;
+}
+.Re .Card1
+{
+    width: 240px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Re .Card1 p:not(:last-child)
+{
+    color: hsl(0, 100%, 67%);
+}
+.Re .Card2 p:not(:last-child)
+{
+    color: hsl(39, 100%, 56%);
+}
+.Re .Card3 p:not(:last-child)
+{
+    color: hsl(166, 100%, 37%);
+}
+.Re .Card4 p:not(:last-child)
+{
+    color: hsl(234, 85%, 45%);
+}
+.Re .Card2
+{
+    width: 240px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Re .Card3
+{
+    width: 240px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Re .Card4
+{
+    width: 240px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button
+{
+    border: 0;
+    outline: 0;
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color:  hsl(252, 100%, 67%);
+}
